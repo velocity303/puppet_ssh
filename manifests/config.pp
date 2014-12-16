@@ -4,7 +4,7 @@ class ssh::config (
 ) {
   file {"${config_path}/${sshd_config}":
     ensure  => 'present',
-    source  => "puppet:///modules/ssh/${sshd_config}",
+    content  => template("${module_name}/${sshd_config}.erb"),
     require => Class['ssh::install'],
   }
 }
