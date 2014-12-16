@@ -1,0 +1,17 @@
+{
+  "name": "velocity303-ssh",
+  "version": "0.1.0",
+  "author": "velocity303",
+  "summary": "Module to install and configure openssh on a Linux machine.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/velocity303/puppet_ssh",
+  "project_page": "https://github.com/velocity303/puppet_ssh",
+  "issues_url": "https://github.com/velocity303/puppet_ssh/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
